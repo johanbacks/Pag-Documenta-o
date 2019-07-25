@@ -1,0 +1,73 @@
+html,body{
+    min-width:290px;
+      color: black;
+      font-family: 'Open Sans',Arial,sans-serif;
+    
+  }
+  #navbar  {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 100%;
+    border-right: solid;
+    border-color: black; 
+  }
+
+  header {
+  font-size: 35px;
+  color: #4682B4; 
+  font-variant: small-caps;
+  }
+
+  a{
+   text-decoration: none; 
+   font-size: 20px;
+   font-family: fantasy ;
+   color:#808080 ; 
+  
+  }
+  
+
+  #navbar li {
+    font-style: normal ; 
+    right: 35px;
+    color: black;
+    border-top: 1px solid;
+    list-style: none ;
+    position: relative;
+    width: 120%;
+  }
+section {
+  margin-left: -40px ;
+}
+
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  code{
+    background-color: #B0C4DE ;
+    display: block ; 
+    padding: 20px;
+    width: 30%  ;
+    margin: 10px;
+  }
+  
+/* parte laptops, desktops */
+
+@media only screen and (min-width: 992px){
+  #navbar{
+    left: 0px;
+    
+  }
+  
+
+}
+  
+
+ 
+ 
+
